@@ -1,0 +1,59 @@
+@media(max-width: 1200px){
+	.single_project {
+   		 height: 233px;
+	}
+}
+@media(max-width: 992px){
+	.single_project {
+   		 height: 172px;
+	}
+	.own{
+		width: 415px;
+	}	
+}
+@media(max-width: 767px){
+	.hidden{
+		display: none;
+	}	
+	.single_project{
+		height: 256px;
+	}
+	.step{
+		left: 0;
+    	top: 48px;
+	}
+	.step2{
+		left: 0;
+    	top: 48px;
+	}
+	.own{
+		width: 455px;
+	}	
+}
+@media(max-width: 575px){
+	.navbar-brand img{
+		width: 60%;
+	}
+	.step{
+		left: 0;
+    	top: 48px;
+	}
+	.step2{
+		left: 0;
+    	top: 48px;
+	}	
+	.single_project{
+		height: 228px;
+	}
+	.own{
+		width: 385px;
+	}
+	.cross i{
+		right: -8px;
+	}
+}
+@media(min-width: 768px){
+	.lg_hidden{
+		display: none;
+	}	
+}
